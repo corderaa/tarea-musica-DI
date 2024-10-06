@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/totalTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3:58"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="41dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="481dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="473dp"
+        android:layout_marginBottom="151dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/share_4362289" />
+
+    <ImageView
+        android:id="@+id/previuosSong"
+        android:layout_width="76dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="550dp"
+        android:layout_marginTop="261dp"
+        android:layout_marginEnd="369dp"
+        android:layout_marginBottom="151dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_7881760" />
+
+    <ImageView
+        android:id="@+id/nextSong"
+        android:layout_width="78dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="761dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/next_7881819" />
+
+    <ImageView
+        android:id="@+id/lyricts"
+        android:layout_width="41dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="875dp"
+        android:layout_marginTop="262dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/favourite_3675578" />
+
+    <ProgressBar
+        android:id="@+id/songTimeProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="424dp"
+        android:layout_height="19dp"
+        android:progress="25"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.849"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.515" />
+
+    <TextView
+        android:id="@+id/bandName"
+        android:layout_width="167dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="157dp"
+        android:layout_marginBottom="288dp"
+        android:text="$uicideboy$"
+        android:textAlignment="center"
+        android:textSize="15.sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.737"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/dropDown"
+        android:layout_width="34dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="430dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/down_chevron_9144316" />
+
+    <ImageView
+        android:id="@+id/More"
+        android:layout_width="28dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="431dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/more_5703560" />
+
+    <ImageView
+        android:id="@+id/songCover"
+        android:layout_width="343dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/song_cover_1" />
+
+    <ImageView
+        android:id="@+id/dislike"
+        android:layout_width="42dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginBottom="316dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/songTItle"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/songCover"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dislike_3570004" />
+
+    <TextView
+        android:id="@+id/songTItle"
+        android:layout_width="164dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginBottom="316dp"
+        android:text="Matte Back"
+        android:textAlignment="center"
+        android:textSize="30.sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/like"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/dislike"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/like"
+        android:layout_width="44dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginBottom="316dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/songTItle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/likegesture_3569999" />
+
+    <SeekBar
+        android:id="@+id/VolumeBar"
+        android:layout_width="425dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="346dp"
+        android:layout_marginBottom="106dp"
+        android:progress="75"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/restTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1:08"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473" />
+
+    <ImageButton
+        android:id="@+id/playButton"
+        android:layout_width="92dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="646dp"
+        android:layout_marginTop="253dp"
+        android:layout_marginEnd="257dp"
+        android:layout_marginBottom="142dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/play_12052806" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
