@@ -9,7 +9,9 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.LinearProgressIndicator
+import androidx.compose.material3.Slider
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -21,6 +23,7 @@ import com.example.musicacompose.R
 
 class TopBar {
 
+    @OptIn(ExperimentalMaterial3Api::class)
     @SuppressLint("NotConstructor")
     @Composable
     fun DrawPortraitTopBar() {
@@ -37,11 +40,10 @@ class TopBar {
                 contentDescription = "go-back",
                 Modifier.size(20.dp)
             )
-            LinearProgressIndicator(
-                trackColor = Color.LightGray,
-                progress = 0.75f,
-                color = Color.Black,
-                modifier = Modifier.width(230.dp)
+            Slider(
+                value = 0.75f,
+                onValueChange = { },
+                Modifier.width(250.dp)
             )
             Image(
                 painter = painterResource(id = R.drawable.more_5703560),
