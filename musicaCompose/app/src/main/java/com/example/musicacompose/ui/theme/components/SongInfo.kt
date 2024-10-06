@@ -64,10 +64,14 @@ class SongInfo {
         ) {
             LinearProgressIndicator(
                 trackColor = Color.LightGray,
-                progress = 0.75f,
+                progress = 0.25f,
                 color = Color.Black,
                 modifier = Modifier.fillMaxWidth()
             )
+        }
+        Row(Modifier.fillMaxWidth().padding(start = 57.dp, end = 57.dp),horizontalArrangement = Arrangement.SpaceBetween){
+            Text(text = "1:08")
+            Text(text = "3:58")
         }
     }
 
@@ -77,7 +81,7 @@ class SongInfo {
         Column(Modifier.fillMaxWidth()) {
             Row(
                 Modifier
-                    .padding(top = 46.dp, start = 57.dp, end = 57.dp)
+                    .padding(top = 30.dp, start = 57.dp, end = 57.dp)
                     .height(60.dp)
                     .fillMaxWidth(),
                 horizontalArrangement = Arrangement.SpaceBetween,
@@ -112,10 +116,14 @@ class SongInfo {
             ) {
                 LinearProgressIndicator(
                     trackColor = Color.LightGray,
-                    progress = 0.75f,
+                    progress = 0.25f,
                     color = Color.Black,
                     modifier = Modifier.fillMaxWidth()
                 )
+            }
+            Row(Modifier.fillMaxWidth().padding(start = 57.dp, end = 57.dp),horizontalArrangement = Arrangement.SpaceBetween){
+                Text(text = "1:08")
+                Text(text = "3:58")
             }
         }
 
